@@ -9,9 +9,9 @@ pipeline {
     APP_NAME        = 'secure-cicd-app'
     APP_VERSION     = "1.0.${BUILD_NUMBER}"
     // IMPORTANT: Replace these with your ACTUAL EC2 Public IPs
-    DEV_SERVER      = '11.22.33.44'
-    STAGING_SERVER  = '11.22.33.55'
-    PROD_SERVER     = '11.22.33.66'
+    DEV_SERVER      = '18.207.143.127'
+    STAGING_SERVER  = '18.206.169.163'
+    PROD_SERVER     = '54.205.138.228'
     SSH_CRED        = 'ec2-ssh-key'
   }
  
